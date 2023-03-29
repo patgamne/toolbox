@@ -1,0 +1,19 @@
+# Nmap 7.93 scan initiated Wed Mar 29 22:03:29 2023 as: nmap -sV -O -o /home/kali/gitclone/toolbox/results/nmap/nmap.xml 192.168.1.1
+Nmap scan report for 192.168.1.1
+Host is up (0.00082s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 7.9 (protocol 2.0)
+53/tcp   open  domain   Unbound
+80/tcp   open  http     nginx
+443/tcp  open  ssl/http nginx
+3000/tcp open  ssl/http Mongoose httpd
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): FreeBSD 11.X (85%)
+OS CPE: cpe:/o:freebsd:freebsd:11.2
+Aggressive OS guesses: FreeBSD 11.2-RELEASE (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar 29 22:03:58 2023 -- 1 IP address (1 host up) scanned in 30.95 seconds
