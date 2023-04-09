@@ -8,10 +8,10 @@ read choice
 
 if [ $choice -eq 1 ]
 then
-    python3 "/home/kali/gitclone/toolbox/scripts/python/encrypter/passwd/passwd/passwd/debia(base)/en.py"
+    python3 "en.py"
 elif [ $choice -eq 2 ]
 then
-    python3 "/home/kali/gitclone/toolbox/scripts/python/encrypter/passwd/passwd/passwd/debia(base)/de.py"
+    python3 "de.py"
 else
     echo "Invalid choice. Please enter 1 or 2."
 fi
